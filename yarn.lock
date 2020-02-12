@@ -1493,10 +1493,10 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
-"@w3stside/wraptor@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@w3stside/wraptor/-/wraptor-1.1.2.tgz#7a53c7384072156878882a459481da4ac0522ad8"
-  integrity sha512-A2uR9G3DVyx+CR/DckyP6M/g6VS8CZkhjOOXrPoTXbfTrwglNwPbPe9CeejXfCy/D4f5oxxFIWJ8dOBYwXG4Xg==
+"@w3stside/wraptor@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@w3stside/wraptor/-/wraptor-1.2.1.tgz#f389cd64480d6d8d43378b026a88807284a3cdd5"
+  integrity sha512-UpG8fpmFN7iS7VCKV0OzaObl33gRQ50W071bcY8dtM3VNYmVCrHMyKAmW9BZjn7nAIDlWDcsuC1/TIIfvxZRWw==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.25"
     "@fortawesome/free-regular-svg-icons" "^5.11.2"
