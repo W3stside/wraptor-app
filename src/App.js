@@ -2,7 +2,8 @@ import React from 'react';
 import logo from './logo.png';
 import './App.css';
 
-import { WraptorComponent, useWeb3Setup } from '@w3stside/wraptor'
+import { WraptorComponent } from '@w3stside/wraptor'
+import useWeb3Setup from './hooks/useWeb3Setup'
 
 function App() {
   const { web3, error } = useWeb3Setup()
