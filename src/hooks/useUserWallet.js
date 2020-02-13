@@ -19,8 +19,14 @@ const useUserWallet = (web3) => {
                 setNetworkId(netId)
             })
         }
-
+        // listen to accounts change
+        web3.currentProvider.on('accountsChanged', getUserAndNetworkInfo)
+        // populate data
         getUserAndNetworkInfo()
+        // remove listener
+        return () => {
+            web3.currentProvider._events['accountsChanged'] = undefined
+        }
     }, [web3])
 
     return {
