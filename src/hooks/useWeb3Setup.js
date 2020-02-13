@@ -36,7 +36,7 @@ const useWeb3Setup = () => {
     }
 
     load()
-  }, [error])
+  }, [])
 
   return { web3, error }
 }
