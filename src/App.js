@@ -29,11 +29,33 @@ function App() {
           userAddress={userAddress}
           // Auto updater
           catalyst={interval}
-          header="WRAPTOR | ETH ⇋ W.ETH"
+          header="🦖 WRAPTOR | ETH ⇋ WETH"
+          buttonLabels={{
+            showAllowance: 'Allowance',
+            showBalance: 'Balance',
+            approve: 'Approve WETH',
+            wrap: 'Wrap ETH',
+            unwrap: 'Unwrap WETH'
+          }}
           customStyle={`
-            color: black
+            background: #2813485e !important;
+            color: #c9cbce;
             font-weight: bolder
             width: 60%
+
+            button {
+              &:disabled {
+                background: rgba(58, 57, 57, 0.3);
+                color: #fdfdfd33;
+              }
+            }
+
+            input {
+              &:focus {
+                color: white;
+                font-weight: 900;
+              }
+            }
           `}
         /> : <div>Waiting for Web3 to initiate...</div>}
       </header>
