@@ -40,8 +40,12 @@ function App() {
           customStyle={`
             background: #2813485e !important;
             color: #c9cbce;
-            font-weight: bolder
-            width: 60%
+            font-weight: bolder;
+            width: 60%;
+
+            @media only screen and (max-width: 768px){
+              width: 80%;
+            }
 
             button {
               &:disabled {
