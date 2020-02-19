@@ -51,6 +51,10 @@ function App() {
               width: 80%;
             }
 
+            button, input, code {
+              font-size: large;
+            }
+
             button {
               &:disabled {
                 background: rgba(58, 57, 57, 0.3);
