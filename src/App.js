@@ -29,7 +29,7 @@ function App() {
           userAddress={userAddress}
           // Auto updater
           catalyst={interval}
-          header="🦖 WRAPTOR | ETH ⇋ WETH"
+          header="🦖 WRAPPTOR | ETH ⇋ WETH"
           buttonLabels={{
             showAllowance: 'Allowance',
             showBalance: 'Balance',

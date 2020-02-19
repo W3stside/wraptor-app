@@ -1,4 +1,4 @@
-# 🦖 WRAPTOR 🦖 | ETH ⇋ WETH
+# 🦖 WRAPPTOR 🦖 | ETH ⇋ WETH
 
 ## Wrap 🦖
 ## Unwrap 🦖
