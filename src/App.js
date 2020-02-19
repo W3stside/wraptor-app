@@ -1,4 +1,5 @@
 import React from 'react'
+import dinoLogo from './logo192.png'
 import logo from './logo.png'
 import './App.css'
 
@@ -20,7 +21,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div>
+          <img src={dinoLogo} className="App-logo" alt="dino-logo" />  
+          <img src={logo} className="App-logo App-logo-spin" alt="logo" />
+        </div>
         {error && <div style={{ background: '#c15050', color: 'black', padding: '0 30px' }}><p>An error has occurred :(</p><p>Error message: {error.message}</p></div>}
         {web3  && userAddress && networkId ? <WraptorComponent 
           type="ETH"
